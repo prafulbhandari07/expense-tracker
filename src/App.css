@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
 
 :root {
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -17,7 +17,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  font-family: Rubik Doodle Shadow , sans-serif;
+  font-family: Rubik Doodle Shadow, sans-serif;
   font-size: 18px;
 }
 
@@ -51,12 +51,12 @@ h4 {
   margin: 20px 0;
 }
 
-.inc-exp-container>div {
+.inc-exp-container > div {
   flex: 1;
   text-align: center;
 }
 
-.inc-exp-container>div:first-of-type {
+.inc-exp-container > div:first-of-type {
   border-right: 1px solid #dedede;
 }
 
@@ -67,11 +67,11 @@ h4 {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color: #00ff6a;
 }
 
 .money.minus {
-  color: #c0392b;
+  color: #ff1900;
 }
 
 label {
@@ -79,8 +79,8 @@ label {
   margin: 10px 0;
 }
 
-input[type='text'],
-input[type='number'] {
+input[type="text"],
+input[type="number"] {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
